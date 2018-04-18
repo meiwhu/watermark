@@ -1,3 +1,8 @@
+/test/res/*
+!/test/res/origin.jpg
+!/test/res/origin.mp4
+!/test/res/watermark.jpg
+
 # Logs
 logs
 *.log
