@@ -1,9 +1,9 @@
 {
-  "name": "watermark",
+  "name": "@meibin/watermark",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/meiwhu/watermark.git",
-  "author": "DESKTOP-J7RM642\\admin <397091336@qq.com>",
+  "author": "meiwhu",
   "license": "MIT",
   "devDependencies": {
     "mocha": "^5.1.0"
