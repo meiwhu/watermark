@@ -7,6 +7,7 @@ var child_process = require('child_process')
  * @param {String} target 输出文件绝对路径
  * @param {String} watermark 水印文字、或水印图片绝对路径 
  * @param {{ textMark: Boolean }} textMark 是否是文字水印、否则是图片
+ * @return {Promise<void>}
  */
 module.exports = function makeWatermark(source, target, watermark, { textMark } = { textMark: true }) {
   if (!path.isAbsolute(source)) {
