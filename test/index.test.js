@@ -11,21 +11,21 @@ const targetVideo = path.resolve(__dirname, 'res/target.mp4')
 
 describe('#Image: Text Watermark', () => {
   it('should be success', async () => {
-    await makeWatermark(originImage, targetImage, '@Watermark', true)
+    await makeWatermark(originImage, targetImage, '@Watermark', { textMark: true })
   })
 })
 describe('#Image: Image Watermark', () => {
   it('should be success', async () => {
-    await makeWatermark(originImage, targetImage, imageWatermark, false)
+    await makeWatermark(originImage, targetImage, imageWatermark, { textMark: false })
   })
 })
 describe('#Video: Text Watermark', () => {
   it('should be success', async () => {
-    await makeWatermark(originVideo, targetVideo, '@Watermark', true)
+    await makeWatermark(originVideo, targetVideo, '@Watermark', { textMark: true })
   })
 })
 describe('#Video: Video Watermark', () => {
   it('should be success', async () => {
-    await makeWatermark(originVideo, targetVideo, imageWatermark, false)
+    await makeWatermark(originVideo, targetVideo, imageWatermark, { textMark: false })
   })
 })

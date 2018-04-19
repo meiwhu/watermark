@@ -15,11 +15,11 @@ Generate watermark for image and video, based on ffmpeg.
   const target = '/path/to/output/file'
 
   // text watermark
-  watermark(source, target, 'TextWatermark', true).then(() => {
+  watermark(source, target, 'TextWatermark').then(() => {
     // done
   })
   // image watermark
-  watermark(source, target, imageSource, false).then(() => {
+  watermark(source, target, imageSource, { textMark: false }).then(() => {
     // done
   })
 
