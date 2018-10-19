@@ -1,3 +1,5 @@
+[![travis-icon]][travis-link]
+
 # watermark
 Generate watermark for image and video, based on ffmpeg.
 
@@ -24,3 +26,6 @@ Generate watermark for image and video, based on ffmpeg.
   })
 
 ```
+
+[travis-icon]:https://travis-ci.org/meiwhu/watermark.svg?branch=master
+[travis-link]:https://travis-ci.org/meiwhu/watermark
