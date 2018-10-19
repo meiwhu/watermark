@@ -2,11 +2,11 @@ var path = require('path')
 var child_process = require('child_process')
 
 /**
- * 添加水印
- * @param {String} source 视频、图片绝对路径
- * @param {String} target 输出文件绝对路径
- * @param {String} watermark 水印文字、或水印图片绝对路径 
- * @param {{ textMark: Boolean }} textMark 是否是文字水印、否则是图片
+ * watermark
+ * @param {String} source absolute path
+ * @param {String} target absolute path
+ * @param {String} watermark text or image path
+ * @param {{ textMark: Boolean }} textMark
  * @return {Promise<void>}
  */
 module.exports = function makeWatermark(source, target, watermark, { textMark } = { textMark: true }) {
