@@ -1,4 +1,4 @@
-[![travis-icon]][travis-link]
+<!-- [![travis-icon]][travis-link] -->
 
 # watermark
 Generate watermark for image and video, based on ffmpeg.
